@@ -1,0 +1,80 @@
+@import url('http://fonts.googleapis.com/css?family=Lora')
+
+@import "html5-reset"
+
+body
+  font-family 'Lora', sans-serif
+  text-align center
+  *
+    text-align left
+body > header
+  h1
+    display inline-block
+  .doGooders
+    display inline-block
+  height 5em
+#banner
+  font-size 160%
+  height 15em
+  width 35em
+  margin-left auto
+  margin-right auto
+  overflow hidden
+  position relative
+  .controls 
+    position absolute
+    left 0
+    top 0
+    height 100%
+    width 100%
+    .prev, .next
+      position absolute
+      top 50%
+      margin-top -1.5em
+      padding 1em
+    .prev
+      left 0
+    .next
+      right 0
+  article
+    background-color gray
+    height 100%
+    h2
+      text-align center
+      padding-top 13em
+      z-index 1
+      &:before
+        content ""
+        width 100%
+        float left
+        position absolute
+        left 0
+        height 3em
+        margin-top -1em
+        opacity .2
+        background-color lightgray
+        z-index 0
+      
+#spiel
+  max-width 30em
+  font-size 140%
+  line-height 150%
+  margin-left auto
+  margin-right auto
+  margin-top 2em
+  p
+    margin-bottom 1em
+
+#callToAction
+  font-size 150%
+  margin-top 2em
+  text-align center
+  button
+    font-size inherit
+    padding .5em
+body > footer
+  margin-top 2em
+  p
+    text-align right
+    margin-right 3em
+    margin-bottom 2em

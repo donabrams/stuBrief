@@ -1,0 +1,14 @@
+!!! 5
+html
+  head
+    title StuBrief - Brief Assessments For Your Students
+    //if lte IE 8
+      meta(http-equiv='refresh', content='1;url=oldBrowser.html')  
+    meta(http-equiv='X-UA-Compatible', content='chrome=1')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    - if (typeof csrf_token !== 'undefined')
+      meta(name='csrf_token', content='#{csrf_token}')
+    link(rel='stylesheet', href='app.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js')
+    script(src='app.js')
+  body
