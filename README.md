@@ -1,9 +1,9 @@
 StuBrief model:
 
 Question:
- - internal name
+ - internalName
  - text
- - answer
+ - correctAnswer
 
 ProgressPoint:
  - name
@@ -12,11 +12,22 @@ ProgressPoint:
 Progression:
  - name
  - List of ProgressPoint
+ 
+Answer:
+ - datetime
+ - answer
+ 
+AssessmentPoint:
+ - Datetime started
+ - List of Answer
+ - ProgressPoint
 
 Assessment:
- - datetime
- - Set of ProgressPoint
+ - Datetime started
+ - Datetime ended
+ - Set of AssessmentPoint
 
-Brief:
- - name
- - Set of Assessment
+Student:
+ - identifier
+ - Set of Assessments called assessments
+ - Map of Progression to ProgressPoint highestAchieved called progress
