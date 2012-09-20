@@ -7,7 +7,7 @@
 
 ### ProgressPoint:
 - name
-- Question
+- Set of Question
  
 ### Progression:
 - name
@@ -76,6 +76,10 @@ a. The same as in a class.
 
 ### Advanced (Big Data)
 
+q. Are some questions better than other?
+
+a. This can be found by seeing if there is a significant difference between the % answered correctly of each Question in a ProgressPoint.
+
 q. Can you predict a higher outcome based on the speed of completing easier questions?
 
 a. Using the progress cache on Assessment, see if there is a high correlation between time taken on all ProgressPoints in all AssessmentPoints and progress achieved.
@@ -92,5 +96,5 @@ The third can be revealed through a timeline that looks for people that stop jus
 
 q. Are there Progress Points that are not in a logical order?
 
-a. If we test with additional questions after the natural stopping point in a Progression and in more than a few cases those questions are answered correctly, then it is likely that they are not in a logical order. There is another possibility that the answer is wrong or the question is ambiguous.
+a. If we test with additional Progress Points after the natural stopping point in a Progression and in more than a few cases those Progress Points are answered correctly, then it is likely that they are not in a logical order. There is another possibility that the answer is wrong or a question ambiguous, but that would show in the "are some questions better than other."
 
