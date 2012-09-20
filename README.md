@@ -34,21 +34,24 @@
 - Set of Assessment called assessments
 - (derived) Map of Progression to ProgressPoint highestAchieved called progress
 
-### Institution:
-- name
-- List of Term starting with activeTerm
-- Map of Term to Set of Student
-
 ### Term:
+- name
 - startDate
 - endDate
+
+### Institution:
+- name
+- Set of Term activeTerms
+
+### Enrollment:
+- Student
+- Institution
+- Term
 
 ### Class:
 - name
 - description
-- Institution
-- Set of Student
-- Term (not necessarily a term within an institution but it can be)
+- Set of Enrollment
 
 ## Questions to ask the model
 
