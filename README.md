@@ -92,5 +92,5 @@ The third can be revealed through a timeline that looks for people that stop jus
 
 q. Are there Progress Points that are not in a logical order?
 
-a. If we test with additional questions after the natural stopping point in a Progression and in more than a few cases those questions are answered correctly, then it is likely that they are not in a logical order. 
+a. If we test with additional questions after the natural stopping point in a Progression and in more than a few cases those questions are answered correctly, then it is likely that they are not in a logical order. There is another possibility that the answer is wrong or the question is ambiguous.
 
