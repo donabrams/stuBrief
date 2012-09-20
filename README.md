@@ -45,8 +45,10 @@
 
 ### Enrollment:
 - Student
-- Institution
 - Term
+- Institution
+- startDate (default to Term startDate)
+- endDate (default to Term endDate)
 
 ### Class:
 - name
