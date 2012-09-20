@@ -27,12 +27,12 @@
 - Datetime started
 - Datetime ended
 - List of AssessmentPoint
-- Map of Progression to ProgressPoint highestAchieved called progress
+- (derived) Map of Progression to ProgressPoint highestAchieved called progress
 
 ### Student:
 - identifier
 - Set of Assessment called assessments
-- Map of Progression to ProgressPoint highestAchieved called progress
+- (derived) Map of Progression to ProgressPoint highestAchieved called progress
 
 ### Institution:
 - name
