@@ -82,10 +82,12 @@ a. Using the progress cache on Assessment, see if there is a high correlation be
 
 q. Are there Progress Points that are redundant?
 
-a. If there is a very high percentage of people who always get the next ProgressPoint correct if the previous ProgressPoint was also answered correctly, there are three possibilities: 
-1. Out of order
-2. Redundancy 
-3. Assessments not being taken between learning the two ProgressPoints
+a. If there is a very high percentage of people who always get the next ProgressPoint correct if the previous ProgressPoint was also answered correctly, there are three possibilities:
+
+1.  Out of order
+2.  Redundancy 
+3.  Assessments not being taken between learning the two ProgressPoints
+
 The third can be revealed through a timeline that looks for people that stop just before these ProgressPoints and just after. If that time is very small in most cases, then it is unlikely. The first can be tested by switching the questions around for a number of students and over time, analyzing if this situation still occurs. The second can only be assume if the other two options are proven false.
 
 q. Are there Progress Points that are not in a logical order?
